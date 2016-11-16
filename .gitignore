@@ -1,0 +1,3 @@
+HotelControlApp/apps/area/migrations/*
+HotelControlApp/apps/principal/migrations/*
+HotelControlApp/apps/sensor/migrations/*

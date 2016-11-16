@@ -1,0 +1,30 @@
+{% load staticfiles %}
+
+<div class="sidebar" data-background-color="white" data-active-color="danger">
+	<div class="sidebar-wrapper">
+		<div class="logo">
+			<a href="http://www.creative-tim.com" class="simple-text">
+				Hotel Prueba
+			</a>
+		</div>
+		<ul class="nav">
+			<li>
+				<a href="#">
+					<i class="ti-panel"></i>
+					<p>Inicio</p>
+				</a>
+			</li>
+			<li>
+				<a href="#">
+					<i class="ti-harddrive"></i>
+					<p>Sensor</p>
+				</a>
+			</li>
+			<li class="active-pro text-center">
+				<a>
+					<img src="{% static 'img/logo.png' %}" width="150" alt="img">
+				</a>
+			</li>
+		</ul>
+	</div>
+</div>
